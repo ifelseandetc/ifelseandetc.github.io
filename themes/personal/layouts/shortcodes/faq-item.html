@@ -1,0 +1,7 @@
+{{- $summary := .Get "summary" | default "" -}}
+<details class="faq-item"{{ if eq (.Get "open") "true" }} open{{ end }}>
+  <summary class="faq-item__summary">{{ $summary }}</summary>
+  <div class="faq-item__body">
+    {{ .Inner }}
+  </div>
+</details>

@@ -1,0 +1,64 @@
+<div class="social-grid">
+  {{ with .Site.Params.social.linkedin }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "linkedin" }}
+    <h3>LinkedIn</h3>
+    <p>Professional network & career</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">Connect</a>
+  </div>
+  {{ end }}
+  {{ with .Site.Params.social.github }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "github" }}
+    <h3>GitHub</h3>
+    <p>Code, projects & contributions</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">View Repos</a>
+  </div>
+  {{ end }}
+  {{ with .Site.Params.social.instagram }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "instagram" }}
+    <h3>Instagram</h3>
+    <p>Photography & visual stories</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">
+      @this.that.other.frames
+    </a>
+  </div>
+  {{ end }}
+  {{ with .Site.Params.social.facebook }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "facebook" }}
+    <h3>Facebook</h3>
+    <p>Photos and Thoughts</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">
+      This, That And the Other thing
+    </a>
+  </div>
+  {{ end }}
+  {{ with .Site.Params.social.youtube }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "youtube" }}
+    <h3>YouTube</h3>
+    <p>Videos, recipes, and vlogs</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">
+      @ThisThatOthers
+    </a>
+  </div>
+  {{ end }}
+  {{ with .Site.Params.social.flickr }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "flickr" }}
+    <h3>Flickr</h3>
+    <p>Photography & visual stories</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">@nagbaba</a>
+  </div>
+  {{ end }}
+  {{ with .Site.Params.social.f500px }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "f500px" }}
+    <h3>500px</h3>
+    <p>Photography & visual stories</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">@nagbaba</a>
+  </div>
+  {{ end }}
+</div>

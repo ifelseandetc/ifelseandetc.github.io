@@ -1,0 +1,13 @@
+name = "Personal"
+license = "MIT"
+licenselink = "https://github.com/yourname/personal-theme/blob/main/LICENSE"
+description = "A clean, newspaper-style personal portfolio theme for Hugo"
+homepage = "https://github.com/yourname/personal-theme"
+tags = ["personal", "portfolio", "blog", "responsive", "newspaper"]
+features = ["responsive", "widgets", "social-media"]
+min_version = "0.41.0"
+
+[author]
+  name = "Your Name"
+  homepage = "https://yoursite.com"
+

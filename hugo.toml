@@ -1,0 +1,48 @@
+baseURL = 'https://www.ifelseandetc.xyz/'
+languageCode = 'en-us'
+title = 'ifs, elses & etc.'
+theme = 'personal'
+
+[params]
+  author = 'Himel Nag Rana'
+  description = 'A site for the ifs, the elses, and the rest. Et cetera. Because life doesn’t compile cleanly.'
+  email = 'hnrana@gmail.com'
+  phone = '+49 1724 212395'
+
+[params.social]
+  twitter = 'https://twitter.com/nagbaba'
+  linkedin = 'https://linkedin.com/in/hnrana'
+  github = 'https://github.com/himelnagrana'
+  instagram = 'https://instagram.com/this.that.other.frames'
+  youtube = 'https://www.youtube.com/@ThisThatOthers'
+  flickr = 'https://flickr.com/photos/_nagbaba'
+  f500px = 'https://500px.com/p/nagbaba'
+  facebook = 'https://www.facebook.com/ThisThatAndOthers'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'About Me'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = 'Things I Do'
+    url = '/things-i-do/'
+    weight = 3
+  [[menu.main]]
+    name = 'Other Worlds'
+    url = '/other-worlds/'
+    weight = 4
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

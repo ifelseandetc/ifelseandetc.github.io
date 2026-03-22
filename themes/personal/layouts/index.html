@@ -1,0 +1,133 @@
+{{ define "main" }}
+<div class="homepage">
+  <!-- Masthead / Header -->
+  <header class="masthead">
+    <div class="masthead-title">
+      <h1>{{ .Site.Title }}</h1>
+      <p class="tagline">{{ .Site.Params.description }}</p>
+    </div>
+    <div class="masthead-date">{{ now.Format "Monday, January 2, 2006" }}</div>
+  </header>
+
+  {{ if .Content }}
+  <section class="widget">
+    <div class="page-content">{{ .Content }}</div>
+  </section>
+  {{ end }}
+
+  <!-- Hero Section: Photo + About Me (4 Column Layout) -->
+  <section class="hero-section widget">
+    <div class="four-column-hero">
+      <!-- Column 1: Featured Photo -->
+      <div class="hero-photo">
+        <img
+          src="/images/profile-featured.jpg"
+          alt="Featured Photo"
+          class="featured-img"
+        />
+        <p class="photo-caption">
+          A small front page for the work, the wondering, and the in-betweens.
+        </p>
+      </div>
+
+      <!-- Columns 2-4: Who I Am Content -->
+      <div class="hero-content">
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-columns">
+          <div class="column">
+            <p>
+              I'm {{ .Site.Params.author }}, a software engineer by profession,
+              a serial tinkerer by habit, and a reluctant curator of too many
+              interests.
+              <br /><br />
+              My resume makes me sound organized. My social bios have been less
+              charitable.
+              <br /><br />
+              Somewhere between the official version and the uninterested
+              unsocial version is the real one: curious, practical, slightly
+              disordered, and usually working on something worth overthinking.
+            </p>
+          </div>
+          <div class="column">
+            <h3>How I Got Here</h3>
+            <p>
+              Most of my working life has been spent building useful things out
+              of messy requirements, shifting priorities, and systems with more
+              history than anyone admits.
+              <br /><br />
+              These days, that also means working with AI - not as magic, but as
+              another tool, collaborator, and source of new questions (🤫 may be
+              minions too).
+              <br /><br />
+              Outside work, the pattern continues: I use it to think, write,
+              research, prototype, and occasionally wander deeper into ideas
+              than I meant to.
+            </p>
+          </div>
+          <div class="column">
+            <h3>Operating System</h3>
+            <p>
+              On good days, I believe in clarity, patience, and not making
+              things more complicated than they need to be. I also believe that
+              Life doesn't compile without a warning or two.
+              <br /><br />
+              I like tools that are useful, ideas that survive scrutiny, and
+              systems that don’t collapse under the weight of optimism. AI is
+              wonderful for speed, scale, and exploration.
+              <br /><br />
+              For judgment, nuance, and knowing when to stop, I still prefer
+              humans - preferably after coffee (and some reluctance).
+            </p>
+          </div>
+        </div>
+        <div class="widget-footer">
+          <a href="/about/" class="read-more">Read Full Story →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Things I Do Section -->
+  <section class="things-section widget">
+    <h2 class="section-title">Things I Do</h2>
+    <div class="widget-grid">
+      {{ range where .Site.RegularPages "Section" "things-i-do" }}
+      <div class="widget-card">
+        <div class="widget-icon">{{ .Params.icon }}</div>
+        <p>{{ .Summary | truncate 120 }}</p>
+        <a href="{{ .RelPermalink }}" class="card-link">more →</a>
+      </div>
+      {{ end }}
+    </div>
+    <div class="widget-footer">
+      <a href="/things-i-do/" class="read-more">View All Activities →</a>
+    </div>
+  </section>
+
+  <!-- Other Worlds Section -->
+  <section class="social-section widget">
+    <h2 class="section-title">Other Worlds</h2>
+    {{ partial "social-cards-grid.html" . }}
+    <div class="widget-footer">
+      <a href="/other-worlds/" class="read-more">Explore All Platforms →</a>
+    </div>
+  </section>
+
+  <!-- Contact Teaser -->
+  <section class="contact-teaser widget">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+      <p>
+        Interested in collaborating or just want to say hello? I'd love to hear
+        from you!
+      </p>
+      <div class="contact-buttons">
+        <a href="/contact/" class="btn btn-primary">Contact Me</a>
+        <a href="mailto:{{ .Site.Params.email }}" class="btn btn-secondary"
+          >Send Email</a
+        >
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}

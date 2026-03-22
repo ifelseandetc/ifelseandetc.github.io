@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="social-page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <div class="page-content">{{ .Content }}</div>
+
+  <section class="social-section widget">
+    {{ partial "social-cards-grid.html" . }}
+    <div class="widget-footer">
+      <a href="/" class="read-more">← Back to home</a>
+    </div>
+  </section>
+</div>
+{{ end }}
