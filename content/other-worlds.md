@@ -1,7 +1,17 @@
 ---
 title: "Other Worlds"
+seoTitle: "Other Worlds | GitHub, Instagram, Flickr, LinkedIn, and More | Himel Nag Rana"
+description: "Find Himel Nag Rana across GitHub, LinkedIn, Instagram, Flickr, and other corners of the web where code, photographs, notes, and professional history live."
 draft: false
 layout: "social"
+keywords:
+  - Himel Nag Rana links
+  - GitHub
+  - LinkedIn
+  - Instagram
+  - Flickr
+  - 500px
+ogImage: "/images/og/other-worlds-og.jpg"
 ---
 
 # Other Worlds

@@ -1,7 +1,18 @@
 ---
-title: "Me / Myself / Himel"
+title: "About"
+seoTitle: "About Himel Nag Rana | Software Engineer in Berlin | ifelsandetc"
+description: "About Himel Nag Rana, a software engineer in Berlin working across TypeScript, Node.js, backend systems, product engineering, AI, photography, books, and writing."
 draft: false
 layout: "single"
+keywords:
+  - Himel Nag Rana
+  - software engineer Berlin
+  - TypeScript
+  - Node.js
+  - product engineering
+  - photography
+  - writing
+ogImage: "/images/og/about-og.jpg"
 ---
 
 ## Who I Am

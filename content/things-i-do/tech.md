@@ -1,8 +1,21 @@
 ---
-title: "Engineering (things I build, and sometimes ... repair)"
+title: "Engineering"
+seoTitle: "Engineering | Software, Systems, and Product Thinking | Himel Nag Rana"
+description: "Engineering notes, work philosophy, technical background, and software thinking from Himel Nag Rana, a Berlin-based software engineer working across TypeScript, Node.js, backend systems, and product development."
 draft: false
 icon: "💻 🥷🏻"
 weight: 1
+keywords:
+  - engineering
+  - TypeScript
+  - Node.js
+  - backend systems
+  - product engineering
+  - Berlin software engineer
+  - things I build, and sometimes ... repair
+ogImage: "/images/og/engineering-og.jpg"
+aliases:
+  - "/engineering/"
 ---
 
 ## Technology & Development

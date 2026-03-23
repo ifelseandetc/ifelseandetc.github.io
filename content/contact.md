@@ -1,7 +1,16 @@
 ---
 title: "Contact"
+seoTitle: "Contact Himel Nag Rana | Collaborations, Writing, Speaking, Projects"
+description: "Contact Himel Nag Rana for collaborations, writing invitations, engineering conversations, project ideas, speaking requests, or a well-aimed hello."
 draft: false
 layout: "single"
+keywords:
+  - contact Himel Nag Rana
+  - collaborate
+  - writing invitations
+  - speaking
+  - photographt project
+ogImage: "/images/og/contact-og.jpg"
 ---
 
 ## Get In Touch

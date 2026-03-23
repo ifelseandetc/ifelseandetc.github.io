@@ -1,0 +1,70 @@
+{{- $siteName := site.Params.siteName | default site.Title -}}
+{{- $author := site.Params.author | default "Himel Nag Rana" -}}
+{{- $defaultDescription := site.Params.siteDescription | default "Personal website of Himel Nag Rana, a software engineer in Berlin writing about engineering, books, photography, AI, and small internet experiments." -}}
+{{- $defaultImage := site.Params.defaultImage | default "/images/og/og-default.jpg" -}}
+
+{{- $title := "" -}}
+{{- if .IsHome -}}
+  {{- $title = printf "Himel Nag Rana | Software Engineer, Writer, Photographer | %s" $siteName -}}
+{{- else if .Params.seoTitle -}}
+  {{- $title = .Params.seoTitle -}}
+{{- else -}}
+  {{- $title = printf "%s | Himel Nag Rana" .Title -}}
+{{- end -}}
+
+{{- $description := .Params.description | default .Summary | default $defaultDescription -}}
+{{- $canonical := .Permalink -}}
+
+{{- $image := "" -}}
+{{- if .Params.ogImage -}}
+  {{- $image = .Params.ogImage | absURL -}}
+{{- else -}}
+  {{- $image = $defaultImage | absURL -}}
+{{- end -}}
+
+{{- $keywords := slice -}}
+{{- if .Params.keywords -}}
+  {{- $keywords = .Params.keywords -}}
+{{- else -}}
+  {{- $keywords = site.Params.siteKeywords -}}
+{{- end -}}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ $author }}">
+{{ with $keywords }}
+<meta name="keywords" content="{{ delimit . ", " }}">
+{{ end }}
+
+<link rel="canonical" href="{{ $canonical }}">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:site_name" content="{{ $siteName }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:image" content="{{ $image }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $image }}">
+{{ with site.Params.twitterHandle }}
+<meta name="twitter:site" content="{{ . }}">
+{{ end }}
+
+{{ if .IsHome }}
+  {{ partial "schema-person.html" . }}
+  {{ partial "schema-website.html" . }}
+{{ end }}
+
+{{ if .IsPage }}
+  {{ partial "schema-breadcrumb.html" . }}
+{{ end }}
+
+{{ if eq .Type "posts" }}
+  {{ partial "schema-article.html" . }}
+{{ end }}

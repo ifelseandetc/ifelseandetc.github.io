@@ -1,8 +1,19 @@
 ---
-title: "Things I read"
+title: "Reading"
+seoTitle: "Reading | Books, Notes, and Literary Drift | Himel Nag Rana"
+description: "Reading notes and bookish wanderings from Himel Nag Rana, covering philosophy, biography, classics, thrillers, political writing, magical realism, and everything else that follows him home."
 draft: false
 icon: "📚📕📖"
 weight: 2
+keywords:
+  - Himel Nag Rana reading
+  - books
+  - philosophy
+  - biography
+  - magical realism
+  - classics
+  - everything printed
+ogImage: "/images/og/reading-og.jpg"
 ---
 
 ## Reading

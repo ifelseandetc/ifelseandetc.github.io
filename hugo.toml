@@ -1,11 +1,21 @@
 baseURL = 'https://www.ifelseandetc.xyz/'
 languageCode = 'en-us'
-title = 'ifs, elses & etc.'
+title = 'ifs, elses, and etc.'
 theme = 'personal'
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
   author = 'Himel Nag Rana'
-  description = 'A site for the ifs, the elses, and the rest. Et cetera. Because life doesn’t compile cleanly.'
+  siteName = 'ifelsandetc'
+  siteDescription = 'Personal website of Himel Nag Rana, a software engineer in Berlin writing about engineering, books, photography, AI, and small internet experiments.'
+  siteKeywords = ['Himel Nag Rana', 'Software Engineer', 'Berlin', 'TypeScript', 'Node.js', 'Photography', 'Books', 'AI', 'Writing']
+  defaultImage = '/images/og/og-default.jpg'
+  description = 'Personal website of Himel Nag Rana, a software engineer in Berlin writing about engineering, books, photography, AI, and small internet experiments.'
   email = 'hnrana@gmail.com'
   phone = '+49 1724 212395'
 
@@ -25,21 +35,25 @@ theme = 'personal'
     url = '/'
     weight = 1
   [[menu.main]]
-    name = 'About Me'
+    name = 'About'
     url = '/about/'
     weight = 2
   [[menu.main]]
+    name = 'Engineering'
+    url = '/engineering/'
+    weight = 3
+  [[menu.main]]
     name = 'Things I Do'
     url = '/things-i-do/'
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = 'Other Worlds'
     url = '/other-worlds/'
-    weight = 4
+    weight = 6
   [[menu.main]]
     name = 'Contact'
     url = '/contact/'
-    weight = 5
+    weight = 7
 
 [markup]
   [markup.goldmark]

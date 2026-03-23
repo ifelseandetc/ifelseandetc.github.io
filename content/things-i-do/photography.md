@@ -1,8 +1,20 @@
 ---
-title: "I shot things"
+title: "Photography"
+seoTitle: "Photography | Street, Quiet Frames, and Strange Light | Himel Nag Rana"
+description: "Photography by Himel Nag Rana, including street scenes, quiet abstractions, visual notes, camera thoughts, and the occasional wabi-sabi frame that arrived without explanation."
 draft: false
 icon: "📷 📸 📷"
 weight: 4
+keywords:
+  - Himel Nag Rana photography
+  - street photography
+  - visual notes
+  - abstract photography
+  - Berlin photography
+  - Urban photography
+  - night photography
+  - hobbyist photographer
+ogImage: "/images/og/photography-og.jpg"
 ---
 ## Photography
 

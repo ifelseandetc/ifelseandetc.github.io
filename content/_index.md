@@ -1,7 +1,16 @@
 ---
 title: "Home"
-date: 2025-11-11
+seoTitle: "Himel Nag Rana | Software Engineer, Writer, Photographer | ifelsandetc"
+description: "Personal website of Himel Nag Rana, a software engineer in Berlin writing about engineering, books, photography, AI, and curious little side projects."
 draft: false
+keywords:
+  - Himel Nag Rana
+  - software engineer Berlin
+  - writer
+  - photographer
+  - books
+  - AI
+ogImage: "/images/og/home-og.jpg"
 ---
 
 Welcome!
