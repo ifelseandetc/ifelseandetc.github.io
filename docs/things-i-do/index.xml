@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Things I Do on ifs, elses, and etc.</title>
+    <link>http://localhost:1313/things-i-do/</link>
+    <description>Recent content in Things I Do on ifs, elses, and etc.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/things-i-do/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Engineering</title>
+      <link>http://localhost:1313/things-i-do/tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/things-i-do/tech/</guid>
+      <description>&lt;h2 id=&#34;technology--development&#34;&gt;Technology &amp;amp; Development&lt;/h2&gt;&#xA;&lt;p&gt;I’ve been working in software for almost 20 years, which mostly means I’ve had enough time to make mistakes in several different architectures.&lt;/p&gt;&#xA;&lt;p&gt;I still enjoy it, unfortunately.&lt;/p&gt;&#xA;&lt;p&gt;Not because I believe technology will save us, but because I like solving problems, making things slightly less annoying, and occasionally building systems that continue to function after I stop looking at them.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-this-usually-means&#34;&gt;What This Usually Means&lt;/h3&gt;&#xA;&lt;p&gt;Most of my work lives somewhere between product, systems, and practical survival.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>http://localhost:1313/things-i-do/reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/things-i-do/reading/</guid>
+      <description>&lt;h2 id=&#34;reading&#34;&gt;Reading&lt;/h2&gt;&#xA;&lt;p&gt;I read almost everything I can get my hands on, which sounds noble until you see the shelves and realize it may just be a highly organized form of intellectual hoarding.&lt;/p&gt;&#xA;&lt;p&gt;I don’t really have a single favorite genre. I have recurring obsessions.&lt;/p&gt;&#xA;&lt;p&gt;Philosophy. History. Politics. Political psychology. Biography. Thrillers. Suspense. Literary fiction. Science fiction. Myth re-tellings. Classics - old and modern. Alternative storytelling. Essays. Newspapers.&lt;br/&gt;&#xA;Strange books that shouldn’t work but somehow do. &lt;br/&gt;&#xA;Occasionally books that absolutely do not work, and I still finish them out of spite.&lt;br/&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/things-i-do/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/things-i-do/writing/</guid>
+      <description>&lt;h2 id=&#34;writing&#34;&gt;Writing&lt;/h2&gt;&#xA;&lt;p&gt;I write when a thought gets too large to remain a status update.&lt;/p&gt;&#xA;&lt;p&gt;Sometimes that becomes an essay. Sometimes a review. Sometimes a half-finished draft with suspicious ambition. Sometimes a recipe written like it survived a small domestic war.&lt;/p&gt;&#xA;&lt;p&gt;Mostly, I just keep writing things down before they turn into mental clutter or worse - confidence.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-i-write&#34;&gt;What I Write&lt;/h3&gt;&#xA;&lt;p&gt;My writing is spread across a few different corners of the internet and a few more corners of unfinished documents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Photography</title>
+      <link>http://localhost:1313/things-i-do/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/things-i-do/photography/</guid>
+      <description>&lt;h2 id=&#34;photography&#34;&gt;Photography&lt;/h2&gt;&#xA;&lt;p&gt;I mostly photograph streets, cities, and the people moving through them.&lt;/p&gt;&#xA;&lt;p&gt;Not in a grand documentary sense. More in the quieter way - pauses, glances, reflections, motion, waiting, light landing correctly for half a second, and ordinary places briefly becoming more interesting than they intended.&lt;/p&gt;&#xA;&lt;p&gt;Most of the time, I just look through the viewfinder.&lt;br/&gt;&#xA;Other times, I try to capture light, people, streets, and the everyday stories life leaves behind.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
