@@ -17,7 +17,7 @@ keywords:
   - philosophy
 ogImage: "/images/og/writing-og.jpg"
 ---
-## Writing
+## Things I write
 
 I write when a thought gets too large to remain a status update.
 

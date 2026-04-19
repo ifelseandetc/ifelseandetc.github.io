@@ -16,7 +16,7 @@ keywords:
   - hobbyist photographer
 ogImage: "/images/og/photography-og.jpg"
 ---
-## Photography
+## Things I shoot
 
 I mostly photograph streets, cities, and the people moving through them.
 

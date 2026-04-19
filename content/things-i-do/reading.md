@@ -16,7 +16,7 @@ keywords:
 ogImage: "/images/og/reading-og.jpg"
 ---
 
-## Reading
+## Things I Read
 
 I read almost everything I can get my hands on, which sounds noble until you see the shelves and realize it may just be a highly organized form of intellectual hoarding.
 
