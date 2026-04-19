@@ -19,7 +19,7 @@
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
-    /* Social / “Other Worlds” SVG icons — 64×64px (explicit px = predictable) */
+    /* Social / “Other Worlds” SVG icons - 64×64px (explicit px = predictable) */
     --social-icon-size: 64px;
 }
 
@@ -137,7 +137,7 @@ body {
     box-shadow: var(--shadow);
 }
 
-/* Home: Welcome block — text left, profile photo right */
+/* Home: Welcome block - text left, profile photo right */
 .welcome-widget .welcome-split {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(200px, 32%);
@@ -663,7 +663,7 @@ body {
     border-radius: 6px;
 }
 
-/* Contact page — FAQ framed callout (shortcode: faq-panel) */
+/* Contact page - FAQ framed callout (shortcode: faq-panel) */
 .page-content .contact-faq-panel {
     margin: var(--spacing-xl) 0;
     padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-md);

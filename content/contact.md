@@ -9,7 +9,7 @@ keywords:
   - collaborate
   - writing invitations
   - speaking
-  - photographt project
+  - photography project
 ogImage: "/images/og/contact-og.jpg"
 ---
 
@@ -90,7 +90,7 @@ I’m occasionally open to (_if time permits_):<br/>
 
 ### Response Rhythm
 
-⏳ **Usually within 24–72 hours**
+⏳ **Usually within 24~72 hours**
 
 Sometimes faster.  
 Sometimes life, work, family, and the general collapse of modern attention spans intervene.
@@ -137,13 +137,13 @@ _or, “questions I can answer before we begin our email correspondence saga”_
 I’m selective, mostly because time is finite and chaos is undefeated.
 
 The best-fit work usually involves:<br/>
-- brainstorming 
-- engineering systems
-- architecture and reliability
-- developer experience
-- internal tools / automation
+- Brainstorming 
+- Engineering systems
+- Architecture and reliability
+- Developer experience
+- Internal tools / automation
 - AI-assisted workflows that are actually useful
-- odd hybrid projects that sit somewhere between code, systems, and ideas
+- Odd hybrid projects that sit somewhere between code, systems, and ideas
 
 If you send a brief with **scope, timeline, budget, and goals**, I can usually tell you pretty quickly whether it’s a fit.
 
@@ -156,8 +156,8 @@ If you send a brief with **scope, timeline, budget, and goals**, I can usually t
 That usually means helping with things like:
 
 - Short advisory sessions, 
-- architecture discussions, 
-- and longer-term engagements are all possible depending on availability.
+- Architecture discussions, 
+- and Longer-term engagements are all possible depending on availability.
 
 {{% /faq-item %}}
 
@@ -172,8 +172,8 @@ If the brief is weird in a good way, that helps.
 {{% faq-item summary="Are you open to speaking, podcasts, interviews, or guest writing?" %}}
 
 **Yes, if the topic feels meaningful.**
+I am pretty introvert! And, my general idea is that there's nothing in the world that I know which others do not. But when the idea is about sharing "my opinion", "my understanding", "my experience" - my way, rather than what things "should be" - then I'll feel little more comfortable.
 
-I am pretty introvert and my general idea is that there's nothing in the world that I know which others do not. But when the idea is about sharing "my opinion", "my understanding", "my experience" - my way, rather than what things "should be" - then I'll feel little more comfortable.
 
 - engineering craft
 - AI in real-world work

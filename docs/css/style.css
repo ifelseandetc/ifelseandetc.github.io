@@ -19,7 +19,7 @@
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
-    /* Social / “Other Worlds” SVG icons — 64×64px (explicit px = predictable) */
+    /* Social / “Other Worlds” SVG icons - 64×64px (explicit px = predictable) */
     --social-icon-size: 64px;
 }
 
@@ -290,25 +290,25 @@ body {
 }
 
 /* Row 1: each card spans 2 of 8 columns (= four equal columns) */
-.social-grid > .social-card:nth-child(-n + 4) {
+.social-grid>.social-card:nth-child(-n + 4) {
     grid-column: span 2;
 }
 
 /* Row 2: three cards, each spans 2 cols, starting at 2 / 4 / 6 → visually centered */
-.social-grid > .social-card:nth-child(5) {
+.social-grid>.social-card:nth-child(5) {
     grid-column: 2 / span 2;
 }
 
-.social-grid > .social-card:nth-child(6) {
+.social-grid>.social-card:nth-child(6) {
     grid-column: 4 / span 2;
 }
 
-.social-grid > .social-card:nth-child(7) {
+.social-grid>.social-card:nth-child(7) {
     grid-column: 6 / span 2;
 }
 
 /* 8th+ cards (if you add more later): continue full-width pairs on next rows */
-.social-grid > .social-card:nth-child(n + 8) {
+.social-grid>.social-card:nth-child(n + 8) {
     grid-column: span 2;
 }
 
@@ -542,7 +542,7 @@ body {
     font-weight: 600;
 }
 
-/* Contact page — FAQ framed callout (shortcode: faq-panel) */
+/* Contact page - FAQ framed callout (shortcode: faq-panel) */
 .page-content .contact-faq-panel {
     margin: var(--spacing-xl) 0;
     padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-md);
@@ -553,14 +553,14 @@ body {
     box-shadow: var(--shadow);
 }
 
-.page-content .contact-faq-panel > h2:first-child {
+.page-content .contact-faq-panel>h2:first-child {
     margin-top: 0;
     margin-bottom: var(--spacing-xs);
     padding-bottom: var(--spacing-sm);
     border-bottom: 1px solid var(--border-color);
 }
 
-.page-content .contact-faq-panel > h2:first-child + p {
+.page-content .contact-faq-panel>h2:first-child+p {
     margin-top: 0;
     margin-bottom: var(--spacing-md);
     color: var(--text-light);
@@ -644,11 +644,11 @@ body {
     line-height: 1.75;
 }
 
-.page-content .contact-faq-panel .faq-item__body > *:first-child {
+.page-content .contact-faq-panel .faq-item__body>*:first-child {
     margin-top: 0;
 }
 
-.page-content .contact-faq-panel .faq-item__body > *:last-child {
+.page-content .contact-faq-panel .faq-item__body>*:last-child {
     margin-bottom: 0;
 }
 
@@ -830,7 +830,7 @@ body {
     }
 
     /* Stack social cards; undo desktop row placement */
-    .social-grid > .social-card:nth-child(n) {
+    .social-grid>.social-card:nth-child(n) {
         grid-column: auto;
     }
 

@@ -178,4 +178,4 @@ If you want the actual evidence instead of this suspicious amount of text, the p
 - sometimes film
 - usually some combination of curiosity, timing, and poor impulse control
 
-Because in the end, I’m mostly just walking around with a camera, waiting for the some story to be acted out infront of me.
+Because in the end, I’m mostly just walking around with a camera, waiting for something to be acted out in front of me.
