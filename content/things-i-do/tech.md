@@ -69,23 +69,23 @@ Concrete paperwork and parallel selves:
 
 Before the job titles started sounding serious on LinkedIn, there was a short internship building a J2ME mobile undergrad project - AT commands, a server, and the first proof that software could leave the lecture hall and annoy real hardware.
 
-I started my paid web career at <a href="https://www.linkedin.com/company/1078475/" target="_blank">**ECBB Bangladesh**</a> in 2007 as a web programmer: **PHP**, the **Mojavi** framework, **MySQL**, **MooTools**, and **jQuery** - building something close to a WordPress-like blog CMS, including drag-and-drop UI pieces for people who did not want to think about HTML.
+I started my paid web career at <a href="https://www.linkedin.com/company/1078475/" target="_blank" class="tech">**ECBB Bangladesh**</a> in 2007 as a web programmer: **PHP**, the **Mojavi** framework, **MySQL**, **MooTools**, and **jQuery** - building something close to a WordPress-like blog CMS, including drag-and-drop UI pieces for people who did not want to think about HTML.
 
-In **late 2007** I joined <a href="https://www.linkedin.com/company/464416/" target="_blank">**Athena Software Associates**</a> as a software engineer on the “Premium Web Cart” suite - still **PHP** and **MySQL**, now with **CodeIgniter**, and a lot of e-commerce-shaped problems that refuse to stay tidy.
+In **late 2007** I joined <a href="https://www.linkedin.com/company/464416/" target="_blank" class="tech">**Athena Software Associates**</a> as a software engineer on the “Premium Web Cart” suite - still **PHP** and **MySQL**, now with **CodeIgniter**, and a lot of e-commerce-shaped problems that refuse to stay tidy.
 
-**2009** brought **Praxis ICT** and a team-lead hat on the PHP team: **CodeIgniter**, **MySQL**, **Joomla**, a home rental management portal, and the early version of mentoring - convincing juniors that the bug was real before you argue about the framework.
+**2009** brought <span class="tech">**Praxis ICT**</span> and a team-lead hat on the PHP team: **CodeIgniter**, **MySQL**, **Joomla**, a home rental management portal, and the early version of mentoring - convincing juniors that the bug was real before you argue about the framework.
 
-**2010** was <a href="https://www.linkedin.com/company/67019/" target="_blank">**BJIT**</a> in two chapters: first building an organization workflow tool in the enterprise line, then stepping into an **SQA line manager** role - **IBM** test tooling, **Selenium**, **Apache JMeter**, and the administrative glue around people who break software for a living.
+**2010** was <a href="https://www.linkedin.com/company/67019/" target="_blank" class="tech">**BJIT**</a> in two chapters: first building an organization workflow tool in the enterprise line, then stepping into an **SQA line manager** role - **IBM** test tooling, **Selenium**, **Apache JMeter**, and the administrative glue around people who break software for a living.
 
-From **2011** to **2014** I was at **LooseMonkies** as back-end team lead (with some project-management air traffic control): **PHP**, **Symfony**, search in **Solr**, **Elasticsearch**, **message queues**, **Backbone.js**, and algorithms that were supposed to match things without matching disasters.
+From **2011** to **2014** I was at <span class="tech">**LooseMonkies**</span> as back-end team lead (with some project-management air traffic control): **PHP**, **Symfony**, search in **Solr**, **Elasticsearch**, **message queues**, **Backbone.js**, and algorithms that were supposed to match things without matching disasters.
 
-A short **2014** stop at **Wneeds** was architecture and build for an event-organizer web app: **PHP**, **Kohana**, **MySQL**, **Symfony**, **PhoneGap**, **Solr** - enough moving parts to remind you why “small project” is often a lie.
+A short **2014** stop at <span class="tech">**Wneeds**</span> was architecture and build for an event-organizer web app: **PHP**, **Kohana**, **MySQL**, **Symfony**, **PhoneGap**, **Solr** - enough moving parts to remind you why “small project” is often a lie.
 
-**2014–2021** at <a href="https://www.linkedin.com/company/1681186/" target="_blank">**Cefalo**</a> widened the stack properly: **Spring Boot**, **TypeScript**, **Express**, **Vue**, **Handlebars**, **React Native**, **message queues**, **Elasticsearch**, **AWS** - a custom publishing CMS to replace Escenic for Norwegian media, and a cross-platform logistics-style mobile product with the backend behind it.
+**2014–2021** at <a href="https://www.linkedin.com/company/1681186/" target="_blank" class="tech">**Cefalo**</a> widened the stack properly: **Spring Boot**, **TypeScript**, **Express**, **Vue**, **Handlebars**, **React Native**, **message queues**, **Elasticsearch**, **AWS** - a custom publishing CMS to replace Escenic for Norwegian media, and a cross-platform logistics-style mobile product with the backend behind it.
 
-In **2021** I moved to Berlin and <a href="https://www.linkedin.com/company/11781525" target="_blank">**CoachHub**</a> as senior full-stack engineer: improving the coachee journey in the web portal, architecture and RFC-shaped arguments, mentoring, and shipping alongside product - the same person as the PHP years, only the problems got more distributed.
+In **2021** I moved to Berlin and <a href="https://www.linkedin.com/company/11781525" target="_blank" class="tech">**CoachHub**</a> as senior full-stack engineer: improving the coachee journey in the web portal, architecture and RFC-shaped arguments, mentoring, and shipping alongside product - the same person as the PHP years, only the problems got more distributed.
 
-Since **late 2024** I have been at <a href="https://www.linkedin.com/company/3199750/" target="_blank">**Smartly**</a> as a software engineer - ad channels, creatives, automation, content workflows, and the usual negotiation between product pressure and whatever the system agreed to do last week.
+Since **late 2024** I have been at <a href="https://www.linkedin.com/company/3199750/" target="_blank" class="tech">**Smartly**</a> as a software engineer - ad channels, creatives, automation, content workflows, and the usual negotiation between product pressure and whatever the system agreed to do last week.
 
 #### Career spine (Dhaka, then Berlin)
 

@@ -145,7 +145,7 @@ body {
     align-items: start;
 }
 
-.welcome-split__text.page-content > *:first-child {
+.welcome-split__text.page-content>*:first-child {
     margin-top: 0;
 }
 
@@ -567,7 +567,9 @@ body {
 
 .page-content a {
     color: var(--secondary-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--secondary-color);
 }
 
 .page-content a:hover {
@@ -617,11 +619,11 @@ body {
 }
 
 /* Tight stack: label → diagram → label → diagram */
-.page-content p + .mermaid-diagram {
+.page-content p+.mermaid-diagram {
     margin-top: var(--spacing-xs);
 }
 
-.page-content .mermaid-diagram + p {
+.page-content .mermaid-diagram+p {
     margin-top: var(--spacing-sm);
     margin-bottom: var(--spacing-xs);
 }
@@ -912,6 +914,12 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.7);
     font-size: 0.9rem;
+}
+
+span.tech {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--secondary-color);
 }
 
 /* ===================================

@@ -17,6 +17,7 @@ disableKinds = ['taxonomy', 'term']
   siteDescription = 'Personal website of Himel Nag Rana, a software engineer in Berlin writing about engineering, books, photography, AI, and small internet experiments.'
   siteKeywords = ['Himel Nag Rana', 'Software Engineer', 'Berlin', 'TypeScript', 'Node.js', 'Photography', 'Books', 'AI', 'Writing']
   defaultImage = '/images/og/og-default.jpg'
+  favicon = '/images/profile-featured.jpg'
   description = 'Personal website of Himel Nag Rana, a software engineer in Berlin writing about engineering, books, photography, AI, and small internet experiments.'
   email = 'hnrana@gmail.com'
   phone = '+49 1724 212395'

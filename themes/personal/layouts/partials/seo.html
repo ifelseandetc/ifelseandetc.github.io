@@ -38,6 +38,10 @@
 
 <link rel="canonical" href="{{ $canonical }}">
 
+{{- $favicon := site.Params.favicon | default "/images/profile-featured.jpg" -}}
+<link rel="icon" href="{{ $favicon | relURL }}" type="image/jpeg" sizes="any">
+<link rel="apple-touch-icon" href="{{ $favicon | relURL }}">
+
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 <meta property="og:locale" content="en_US">
