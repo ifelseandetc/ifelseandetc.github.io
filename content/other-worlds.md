@@ -14,8 +14,6 @@ keywords:
 ogImage: "/images/og/other-worlds-og.jpg"
 ---
 
-# Other Worlds
-
 Not all versions of us live in one place.
 
 Some are more employable than others.  

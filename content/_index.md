@@ -11,6 +11,8 @@ keywords:
   - books
   - AI
 ogImage: "/images/og/home-og.jpg"
+welcomeProfileImage: "/images/profile-welcome.png"
+welcomeProfileAlt: "Portrait of Himel Nag Rana"
 ---
 
 Welcome!

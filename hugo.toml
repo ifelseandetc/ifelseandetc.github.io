@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'ifs, elses, and etc.'
 theme = 'personal'
 enableRobotsTXT = true
+# No tag/category archives on this site; avoids “no layout for kind taxonomy” warnings
+disableKinds = ['taxonomy', 'term']
 
 [sitemap]
   changefreq = "weekly"

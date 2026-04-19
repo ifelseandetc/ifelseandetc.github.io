@@ -10,8 +10,25 @@
   </header>
 
   {{ if .Content }}
-  <section class="widget">
+  <section class="widget welcome-widget">
+    {{ if .Params.welcomeProfileImage }}
+    <div class="welcome-split">
+      <div class="welcome-split__text page-content">{{ .Content }}</div>
+      <figure class="welcome-split__photo">
+        <img
+          src="{{ .Params.welcomeProfileImage | relURL }}"
+          alt="{{ .Params.welcomeProfileAlt | default .Site.Params.author }}"
+          width="480"
+          height="600"
+          loading="eager"
+          decoding="async"
+          class="welcome-profile-img"
+        />
+      </figure>
+    </div>
+    {{ else }}
     <div class="page-content">{{ .Content }}</div>
+    {{ end }}
   </section>
   {{ end }}
 

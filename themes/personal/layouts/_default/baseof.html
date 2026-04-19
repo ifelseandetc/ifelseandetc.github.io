@@ -61,6 +61,7 @@
       <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
     </div>
   </footer>
+  {{ if .Params.mermaid }}{{ partial "mermaid-init.html" . }}{{ end }}
 </body>
 </html>
 

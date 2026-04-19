@@ -154,6 +154,19 @@ If a photograph makes someone pause for even half a second longer than expected,
 
 That’s already a small victory.
 
+### My Berlin
+
+A slice of the city as I see it:
+
+<div class="flickr-embed">
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/_nagbaba/albums/72177720318319921" title="Berlin"><img src="https://live.staticflickr.com/65535/53820454517_3b3e971de2_b.jpg" width="1600" height="1200" alt="Berlin" loading="lazy" decoding="async" /></a>
+</div>
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+### Prints
+
+A small print shop is planned; when it exists, this section will point there. Not live yet.
+
 ### Elsewhere
 
 If you want the actual evidence instead of this suspicious amount of text, the photos live elsewhere:

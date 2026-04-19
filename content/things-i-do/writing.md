@@ -1,9 +1,9 @@
 ---
 title: "Writing"
-seoTitle: \"Writing | Essays, Notes, and Observations | Himel Nag Rana\"
-description: \"Writing by Himel Nag Rana on software engineering, books, photography, AI, and the stories we tell about technical work and life.\"
+seoTitle: "Writing | Essays, Notes, and Observations | Himel Nag Rana"
+description: "Writing by Himel Nag Rana on software engineering, books, photography, AI, and the stories we tell about technical work and life."
 draft: false
-icon: \"📝 ✍️ ⌨️\"
+icon: "📝 ✍️ ⌨️"
 weight: 3
 keywords:
   - writing
@@ -15,7 +15,7 @@ keywords:
   - book projects
   - language
   - philosophy
-ogImage: \"/images/og/writing-og.jpg\"
+ogImage: "/images/og/writing-og.jpg"
 ---
 ## Writing
 

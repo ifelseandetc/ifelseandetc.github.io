@@ -137,6 +137,34 @@ body {
     box-shadow: var(--shadow);
 }
 
+/* Home: Welcome block — text left, profile photo right */
+.welcome-widget .welcome-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(200px, 32%);
+    gap: var(--spacing-xl);
+    align-items: start;
+}
+
+.welcome-split__text.page-content > *:first-child {
+    margin-top: 0;
+}
+
+.welcome-split__photo {
+    margin: 0;
+}
+
+.welcome-profile-img {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    background-color: var(--bg-light);
+}
+
 .section-title {
     font-family: var(--font-serif);
     font-size: 2rem;
@@ -290,25 +318,25 @@ body {
 }
 
 /* Row 1: each card spans 2 of 8 columns (= four equal columns) */
-.social-grid > .social-card:nth-child(-n + 4) {
+.social-grid>.social-card:nth-child(-n + 4) {
     grid-column: span 2;
 }
 
 /* Row 2: three cards, each spans 2 cols, starting at 2 / 4 / 6 → visually centered */
-.social-grid > .social-card:nth-child(5) {
+.social-grid>.social-card:nth-child(5) {
     grid-column: 2 / span 2;
 }
 
-.social-grid > .social-card:nth-child(6) {
+.social-grid>.social-card:nth-child(6) {
     grid-column: 4 / span 2;
 }
 
-.social-grid > .social-card:nth-child(7) {
+.social-grid>.social-card:nth-child(7) {
     grid-column: 6 / span 2;
 }
 
 /* 8th+ cards (if you add more later): continue full-width pairs on next rows */
-.social-grid > .social-card:nth-child(n + 8) {
+.social-grid>.social-card:nth-child(n + 8) {
     grid-column: span 2;
 }
 
@@ -319,6 +347,8 @@ body {
     border: 1px solid var(--border-color);
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 .social-card:hover {
@@ -367,10 +397,17 @@ body {
     margin-bottom: var(--spacing-sm);
 }
 
+.social-card-tagline {
+    overflow-wrap: break-word;
+    hyphens: none;
+}
+
 .social-link {
     color: var(--secondary-color);
     text-decoration: none;
     font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
 }
 
 .social-link:hover {
@@ -542,6 +579,88 @@ body {
     font-weight: 600;
 }
 
+/* Embeds (LinkedIn badge, Flickr) */
+.linkedin-badge-wrap {
+    margin: var(--spacing-lg) 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* LinkedIn injects nested divs/iframes; stretch to the content column */
+.linkedin-badge-wrap .badge-base,
+.linkedin-badge-wrap .LI-profile-badge {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0;
+}
+
+.linkedin-badge-wrap iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 320px;
+    border: none;
+}
+
+.mermaid-diagram {
+    margin: var(--spacing-sm) 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    font-family: var(--font-sans);
+    color: var(--text-color);
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: var(--spacing-sm);
+    box-shadow: var(--shadow);
+}
+
+/* Tight stack: label → diagram → label → diagram */
+.page-content p + .mermaid-diagram {
+    margin-top: var(--spacing-xs);
+}
+
+.page-content .mermaid-diagram + p {
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
+}
+
+.mermaid-diagram .mermaid {
+    margin: 0;
+    font-family: inherit;
+}
+
+.mermaid-diagram svg {
+    font-family: var(--font-sans) !important;
+}
+
+.mermaid-diagram svg text {
+    font-family: var(--font-sans) !important;
+}
+
+.mermaid-diagram svg .lineWrapper line,
+.mermaid-diagram svg .lineWrapper path,
+.mermaid-diagram svg .lineWrapper polyline {
+    stroke: #2c3e50 !important;
+}
+
+.flickr-embed {
+    margin: var(--spacing-lg) 0;
+    max-width: 100%;
+}
+
+.flickr-embed a {
+    display: block;
+}
+
+.flickr-embed img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
 /* Contact page — FAQ framed callout (shortcode: faq-panel) */
 .page-content .contact-faq-panel {
     margin: var(--spacing-xl) 0;
@@ -553,14 +672,14 @@ body {
     box-shadow: var(--shadow);
 }
 
-.page-content .contact-faq-panel > h2:first-child {
+.page-content .contact-faq-panel>h2:first-child {
     margin-top: 0;
     margin-bottom: var(--spacing-xs);
     padding-bottom: var(--spacing-sm);
     border-bottom: 1px solid var(--border-color);
 }
 
-.page-content .contact-faq-panel > h2:first-child + p {
+.page-content .contact-faq-panel>h2:first-child+p {
     margin-top: 0;
     margin-bottom: var(--spacing-md);
     color: var(--text-light);
@@ -644,11 +763,11 @@ body {
     line-height: 1.75;
 }
 
-.page-content .contact-faq-panel .faq-item__body > *:first-child {
+.page-content .contact-faq-panel .faq-item__body>*:first-child {
     margin-top: 0;
 }
 
-.page-content .contact-faq-panel .faq-item__body > *:last-child {
+.page-content .contact-faq-panel .faq-item__body>*:last-child {
     margin-bottom: 0;
 }
 
@@ -813,6 +932,21 @@ body {
         gap: var(--spacing-md);
     }
 
+    .welcome-widget .welcome-split {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .welcome-profile-img {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .welcome-split__photo {
+        justify-self: center;
+    }
+
     .hero-photo {
         position: static;
         max-width: 300px;
@@ -830,7 +964,7 @@ body {
     }
 
     /* Stack social cards; undo desktop row placement */
-    .social-grid > .social-card:nth-child(n) {
+    .social-grid>.social-card:nth-child(n) {
         grid-column: auto;
     }
 
