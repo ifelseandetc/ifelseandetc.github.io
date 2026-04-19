@@ -172,7 +172,9 @@ If the brief is weird in a good way, that helps.
 {{% faq-item summary="Are you open to speaking, podcasts, interviews, or guest writing?" %}}
 
 **Yes, if the topic feels meaningful.**
-I am pretty introvert! And, my general idea is that there's nothing in the world that I know which others do not. But when the idea is about sharing "my opinion", "my understanding", "my experience" - my way, rather than what things "should be" - then I'll feel little more comfortable.
+I am pretty introvert! 
+And, my general idea is that there's nothing in the world that I know which others do not. 
+But when the idea is about sharing "my opinion", "my understanding", "my experience" - my way, rather than what things "should be" - then I'll feel little more comfortable.
 
 
 - engineering craft
