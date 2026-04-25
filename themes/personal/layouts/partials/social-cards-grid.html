@@ -15,6 +15,14 @@
     <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">View Repos</a>
   </div>
   {{ end }}
+  {{ with .Site.Params.social.techblog }}
+  <div class="social-card">
+    {{ partial "social-icon.html" "blog" }}
+    <h3>Tech Blog</h3>
+    <p>Engineering notes, systems, and long-form technical writing</p>
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">Read Blog</a>
+  </div>
+  {{ end }}
   {{ with .Site.Params.social.instagram }}
   <div class="social-card">
     {{ partial "social-icon.html" "instagram" }}

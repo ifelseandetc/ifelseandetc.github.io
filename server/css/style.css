@@ -283,9 +283,13 @@ body {
    =================================== */
 .social-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-md);
+}
+
+.social-grid>.social-card {
+    grid-column: auto;
 }
 
 .social-card {

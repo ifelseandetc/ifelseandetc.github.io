@@ -107,6 +107,7 @@ If not, it gets deleted and can haunt me privately.
 
 If you want the published evidence instead of this highly suspicious amount of self-description:
 
+- <u>[**//@TODO: write more!**](https://blog.tech.ifelseandetc.xyz)</u> for engineering notes, software systems thinking, and technical writing that escaped the drafts folder
 - <u>[**Turning Pages**](https://turningpages.xyz/)</u> for books, reviews, notes, and literary wandering
 - <u>[**Stuffs I Cook**](https://stuffsicook.blogspot.com/)</u> for recipes, food notes, and a mildly neglected archive of edible intentions
 

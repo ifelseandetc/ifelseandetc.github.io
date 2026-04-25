@@ -281,35 +281,17 @@ body {
 /* ===================================
    Social Grid (Other Worlds)
    =================================== */
-/* 4×2 layout for 7 items: row1 = four cards; row2 = three centered (8-col trick) */
+/* Generic desktop layout: four cards per row */
 .social-grid {
     display: grid;
-    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-md);
 }
 
-/* Row 1: each card spans 2 of 8 columns (= four equal columns) */
-.social-grid>.social-card:nth-child(-n + 4) {
-    grid-column: span 2;
-}
-
-/* Row 2: three cards, each spans 2 cols, starting at 2 / 4 / 6 → visually centered */
-.social-grid>.social-card:nth-child(5) {
-    grid-column: 2 / span 2;
-}
-
-.social-grid>.social-card:nth-child(6) {
-    grid-column: 4 / span 2;
-}
-
-.social-grid>.social-card:nth-child(7) {
-    grid-column: 6 / span 2;
-}
-
-/* 8th+ cards (if you add more later): continue full-width pairs on next rows */
-.social-grid>.social-card:nth-child(n + 8) {
-    grid-column: span 2;
+/* Keep normal placement regardless of card count */
+.social-grid>.social-card {
+    grid-column: auto;
 }
 
 .social-card {

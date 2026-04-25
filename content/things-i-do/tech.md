@@ -62,6 +62,7 @@ Concrete paperwork and parallel selves:
 - **[Current resume (PDF)](/documents/himel-nag-rana-resume-2026-04.pdf)**  -  current as of April 2026
 - **[GitHub](https://github.com/himelnagrana)**  -  experiments, utilities, and things that escaped before they were fully house-trained
 - **[LinkedIn](https://www.linkedin.com/in/hnrana)**  -  the employable narrative, projects, and history in daylight-friendly form
+- **[//@TODO: write more!](https://blog.tech.ifelseandetc.xyz)**  -  engineering notes, software systems, and technical writing in long form
 
 {{< linkedin-badge >}}
 

@@ -31,6 +31,7 @@ Different platforms hold different fragments. None of them is the full story. To
 
 Some places are for work.  
 Some are for photographs.  
+Some are for engineering notes and technical writing.  
 Some are for whatever happens when curiosity refuses to sit still.
 
 So this is not really a “find me online” page.  
@@ -45,6 +46,8 @@ Each platform here carries a slightly different accent.
 **LinkedIn** is the clean shirt version - experience, work, career, the respectable narrative we tell in daylight.
 
 **GitHub** is where the screws, wires, rough edges, and actual evidence live - code, experiments, side projects, and the occasional idea that escaped before it was fully house-trained.
+
+**Tech Blog** is where engineering ideas get enough room to breathe - software notes, system thinking, and longer technical reflections.
 
 **Instagram**, **Flickr**, and **500px** carry the visual side - street frames, abstractions, passing weather, odd stillness, beautiful decay, and whatever else insists on being photographed without offering an explanation.
 
