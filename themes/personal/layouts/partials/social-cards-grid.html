@@ -15,7 +15,8 @@
     <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="social-link">View Repos</a>
   </div>
   {{ end }}
-  {{ with .Site.Params.social.techblog }}
+  {{ $blogLink := .Site.Params.social.techblog | default .Site.Params.social.blog }}
+  {{ with $blogLink }}
   <div class="social-card">
     {{ partial "social-icon.html" "blog" }}
     <h3>Tech Blog</h3>
