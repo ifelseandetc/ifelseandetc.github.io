@@ -55,7 +55,7 @@ I’m a senior full-stack engineer with a backend lean: APIs, distributed produc
 
 Lately that work sits next to product and design - RFCs, reviews, tests that actually earn their keep, and the occasional argument with architecture until it behaves.
 
-### Resume, GitHub, and LinkedIn
+### GitHub, and LinkedIn, and Blog
 
 Concrete paperwork and parallel selves: 
 
