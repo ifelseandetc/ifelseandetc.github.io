@@ -109,6 +109,6 @@ If you want the published evidence instead of this highly suspicious amount of s
 
 - <u>[**//@TODO: write more!**](https://blog.tech.ifelseandetc.xyz)</u> for engineering notes, software systems thinking, and technical writing that escaped the drafts folder
 - <u>[**Turning Pages**](https://turningpages.xyz/)</u> for books, reviews, notes, and literary wandering
-- <u>[**Stuffs I Cook**](https://stuffsicook.blogspot.com/)</u> for recipes, food notes, and a mildly neglected archive of edible intentions
+- <u>[**Stuffs I Cook**](https://kitchen.ifelseandetc.xyz/)</u> for recipes, food notes, and a mildly neglected archive of edible intentions
 
 Everything else is either still in progress, still in notebooks, or still pretending not to be a project yet.
